@@ -45,10 +45,11 @@ lotr_sdk.getAllCharacters().then((res) => {
 - Obtain an API key by signing up [here](https://the-one-api.dev/sign-up)
 - `touch .env`
 - `echo "API_KEY=<your_key>" >> README.md`
+- `npm build`
 - run `npm link` to prep for test setup below
 
 3. Configure for testing
 - `cd ~./PATH/TO/liblab/testing`
 - `npm install`
-- `npm link lotr_sdk`
+- `npm link lotr_sdk` OR `npm install lotr_sdk` (the latter will install directly from npm package registry)
 - Run the test file: `node boot_test.js`
