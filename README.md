@@ -2,10 +2,10 @@
 
 1. Clone the repo
 
-- `git clone`
+- `git clone git@github.com:c-pec/lotr_challenge.git`
 
 2. Build the lotr_sdk project
-- `cd lotr_sdk`
+- `cd ~/PATH/TO/liblab/lotr_sdk`
 - `npm install`
 - Obtain an API key by signing up [here](https://the-one-api.dev/sign-up)
 - `touch .env`
@@ -13,7 +13,7 @@
 - run `npm link` to prep for test setup below
 
 3. Configure for testing
-- `cd ~./liblab/testing`
+- `cd ~./PATH/TO/liblab/testing`
 - `npm install`
 - `npm link lotr_sdk`
 - Run the test file: `node boot_test.js`
