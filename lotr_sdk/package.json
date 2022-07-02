@@ -1,6 +1,6 @@
 {
   "name": "lotr_sdk",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -8,7 +8,11 @@
     "prepare": "npm run build",
     "build": "tsc"
   },
-  "keywords": [],
+  "keywords": [
+    "challenge",
+    "lotr",
+    "lord of the rings"
+  ],
   "author": "C. Pecora",
   "license": "ISC",
   "dependencies": {
